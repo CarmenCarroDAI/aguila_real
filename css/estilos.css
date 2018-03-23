@@ -49,6 +49,11 @@ dt, p:first-letter {
 }
 a {
 	color: rgb(189,144,117);
+	width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 dt a {
 	font-weight: bold;
@@ -71,8 +76,8 @@ figure img {
 }
 .vertical img, .vertical figcaption {
 	width: 70%;
-	margin: 0 auto;
 	display: block;
+	margin: 0 auto;
 	position: static;
 }
 .horizontal100{
@@ -177,4 +182,47 @@ footer p {
 }
 footer p:first-letter {
 	color: rgb(158,109,40);
+}
+@media only screen and (max-width: 680px) {
+	body {
+		background: url(../img/bg.jpg) repeat ;
+	}
+	#menu {
+		width: 100%;
+		position: fixed;
+		
+	}
+	#logo {
+		position: absolute;
+	}
+	#nav {
+		width: 100%;
+		background: rgb(251,250,232);
+	}
+    #nav h1 {
+    	display: block;
+    	text-align: center;
+    }
+    #nav ul {
+    	width: 80%;
+    	padding-left: 90px;
+    	height: auto;
+    }
+    #nav li {
+    	padding: 0 2px;
+    	line-height: 25px;
+    	border-bottom: 1px solid rgb(250,202,105);
+
+    }
+    .data {
+    	width: 100%;
+    }
+    figure {
+    	display: block;
+    	margin: 0 auto;
+    	width: 100%;
+    }
+    footer .data {
+    	margin-bottom: 30px;
+    }
 }
