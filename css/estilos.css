@@ -115,6 +115,13 @@ figcaption {
 	background: rgb(250,202,105);
 	padding: 0 15px;
 	color: rgb(158,109,40);
+	display: block;
+}
+#nav h2 {
+	font-size: 2rem;
+    background: #1e1e33;
+    padding: 20px;
+    margin: 0;
 }
 #nav ul {
 	background: rgb(251,250,232);
