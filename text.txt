@@ -1,14 +1,4 @@
 Este es un ejercicio para hacer rebase
 
-Experimento 1
-
-Experimento 2
-
-<<<<<<< HEAD
-Experimento 3
-
 Master 1
 
-=======
->>>>>>> 2503cfe (Experimento 3)
-Master 2
